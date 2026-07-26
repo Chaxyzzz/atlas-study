@@ -1,152 +1,109 @@
 <div align="center">
 
-# 📚 ATLAS Study
+# ATLAS Study
 
-### Modern Educational Platform for Photography, Videography, Editing & Design
+Modern Educational Platform for Photography, Videography, Editing and Design.
 
-Built with ❤️ by **ATLAS Studio**
-
----
-
-![Version](https://img.shields.io/badge/Version-v1.0.0-black?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge)
-![Laravel](https://img.shields.io/badge/Laravel-Framework-red?style=for-the-badge&logo=laravel)
-![PHP](https://img.shields.io/badge/PHP-8-blue?style=for-the-badge&logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
+Developed by **ATLAS Studio**
 
 ---
 
-> **Learn. Create. Inspire.**
-
-A modern learning platform designed for creators who want to master photography, videography, editing, and creative design.
+![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=flat-square&logo=laravel)
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=flat-square&logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql)
+![License](https://img.shields.io/badge/License-Proprietary-black?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Production_Ready-success?style=flat-square)
 
 </div>
 
 ---
 
-# 🚀 Overview
+## Overview
 
-ATLAS Study is an educational web platform developed by **ATLAS Studio**.
+ATLAS Study is a modern web-based educational platform developed by **ATLAS Studio**.
 
-The platform provides structured learning experiences for creative disciplines including photography, videography, photo editing, video editing, and graphic design.
-
-Designed with a modern dark interface, responsive layouts, and scalable architecture, ATLAS Study aims to become a comprehensive digital learning ecosystem for creators.
+The platform focuses on creative education, providing structured learning experiences in photography, videography, editing, and design through a clean interface, responsive architecture, and scalable Laravel ecosystem.
 
 ---
 
-# ✨ Features
+## Core Features
 
-## Learning System
-
-- 📚 Lesson Management
-- 🗂 Category Management
-- 🔍 Search Lessons
-- 📖 Lesson Detail
-- 🎯 Related Lessons
-
----
-
-## User System
-
-- Secure Authentication
-- User Profile
-- Login & Registration
-- Session Management
+| Module | Status |
+|---------|:------:|
+| Authentication | Complete |
+| Dashboard | Complete |
+| Lesson Management | Complete |
+| Category Management | Complete |
+| AI Analyzer | Complete |
+| Responsive Design | Complete |
+| Multi Language | Complete |
 
 ---
 
-## AI Features
+## Technology
 
-- AI Analyzer
-- AI History
-- Smart Learning Experience
-
----
-
-## User Experience
-
-- Responsive Design
-- Pure Dark Mode
-- Modern UI
-- Smooth Animations
-- Mobile Friendly
-
----
-
-# 🛠 Technology Stack
-
-| Category | Technology |
-|-----------|------------|
+| Layer | Technology |
+|--------|------------|
 | Backend | Laravel |
 | Language | PHP |
 | Database | MySQL |
-| Frontend | HTML5 • CSS3 • JavaScript |
+| Frontend | HTML, CSS, JavaScript |
 | Architecture | MVC |
 | Version Control | Git & GitHub |
 
 ---
 
-# 📂 Project Structure
+## Architecture
 
 ```text
-atlas-study/
-
-├── app/
-├── bootstrap/
-├── config/
-├── database/
-├── public/
-├── resources/
-├── routes/
-├── storage/
-├── tests/
-├── artisan
-├── composer.json
-└── README.md
+Browser
+    │
+    ▼
+Laravel Application
+    │
+    ├── Controllers
+    ├── Models
+    ├── Views
+    │
+    ▼
+MySQL Database
 ```
 
 ---
 
-# ⚙ Installation
+## Installation
 
-Clone Repository
+Clone repository
 
 ```bash
 git clone https://github.com/Chaxyzzz/atlas-study.git
 ```
 
-Move into project
-
-```bash
-cd atlas-study
-```
-
-Install Dependencies
+Install dependencies
 
 ```bash
 composer install
 ```
 
-Copy Environment
+Create environment file
 
 ```bash
 cp .env.example .env
 ```
 
-Generate Application Key
+Generate application key
 
 ```bash
 php artisan key:generate
 ```
 
-Run Migration
+Run database migration
 
 ```bash
 php artisan migrate
 ```
 
-Start Development Server
+Start development server
 
 ```bash
 php artisan serve
@@ -154,94 +111,68 @@ php artisan serve
 
 ---
 
-# 📊 Project Status
+## Roadmap
 
-| Module | Status |
-|---------|--------|
-| Authentication | ✅ Complete |
-| Dashboard | ✅ Complete |
-| Categories | ✅ Complete |
-| Lessons | ✅ Complete |
-| AI Analyzer | ✅ Complete |
-| Responsive UI | ✅ Complete |
-| Multi Language | ✅ Complete |
-
----
-
-# 🗺 Roadmap
-
-## Version 1.0
-
-- [x] Authentication
-- [x] Dashboard
-- [x] Category Management
-- [x] Lesson Management
-- [x] AI Analyzer
-- [x] Responsive Design
+| Version | Progress |
+|----------|----------|
+| Authentication System | Complete |
+| Lesson System | Complete |
+| AI Analyzer | Complete |
+| Hero Landing | Planned |
+| Learning Progress | Planned |
+| AI Recommendation | Planned |
+| Certificate System | Planned |
 
 ---
 
-## Future Updates
+## Project Structure
 
-- [ ] Learning Progress
-- [ ] Bookmark Lessons
-- [ ] Popular Lessons
-- [ ] Recommendation System
-- [ ] AI Learning Assistant
-- [ ] Certificate System
+```text
+atlas-study/
 
----
+app/
+bootstrap/
+config/
+database/
+public/
+resources/
+routes/
+storage/
+tests/
 
-# 📸 Screenshots
-
-> Screenshots will be added in the next release.
-
-Example:
-
-```
-Home Page
-
-Dashboard
-
-Lesson Page
-
-AI Analyzer
+artisan
+composer.json
+README.md
 ```
 
 ---
 
-# 📈 Project Statistics
+## Screenshots
 
-| Information | Value |
-|-------------|-------|
-| Framework | Laravel |
-| Language | PHP |
-| Database | MySQL |
-| Architecture | MVC |
-| Platform | Web Application |
-| UI Theme | Pure Dark Mode |
-| Version | v1.0.0 |
+Screenshots will be added in the next release.
 
 ---
 
-# 🎯 Vision
+## Development
 
-ATLAS Study aims to become a modern educational platform that empowers creators to learn photography, videography, editing, and creative design through immersive technology and high-quality learning experiences.
+ATLAS Study is continuously developed under the ATLAS Studio ecosystem.
+
+New features, performance improvements, UI refinements, and learning modules will continue to be released in future versions.
 
 ---
 
-# 👨‍💻 Developed By
+## License
 
-## ATLAS Studio
+Copyright © 2026 ATLAS Studio.
 
-Building modern platforms for education, creativity, and technology.
+All Rights Reserved.
 
 ---
 
 <div align="center">
 
-### ⭐ If you like this project, consider giving it a Star!
+ATLAS Studio
 
-Made with ❤️ by **ATLAS Studio**
+Creating modern digital platforms for education, creativity, and technology.
 
 </div>

@@ -2,76 +2,114 @@
 
 # ATLAS Study
 
-Modern Learning Platform
+### Modern Learning Platform
 
 Photography • Videography • Editing • Design
 
-Developed and maintained by **ATLAS Studio**
+Built with Laravel • Developed by **ATLAS Studio**
 
 ---
 
-![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=flat-square&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Version](https://img.shields.io/badge/Version-1.0.0-black?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Stable-success?style=flat-square)
+![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Version](https://img.shields.io/badge/Version-v1.0-black?style=for-the-badge)
+![Status](https://img.shields.io/badge/Production-Ready-success?style=for-the-badge)
 
 </div>
 
 ---
 
-# About
-
-ATLAS Study is a modern educational platform built by **ATLAS Studio** to provide structured and interactive learning experiences in creative digital fields.
-
-The platform focuses on high-quality educational content with a clean user interface, scalable architecture, and a modern development workflow powered by Laravel.
+> **ATLAS Study** is a modern educational platform designed to deliver structured learning experiences for creative professionals.
 
 ---
 
-# Features
+# Highlights
 
-| Feature | Status |
-|:---------|:------:|
-| Authentication System | ✔ Complete |
-| User Dashboard | ✔ Complete |
-| Lesson Management | ✔ Complete |
-| Category Management | ✔ Complete |
-| AI Analyzer | ✔ Complete |
-| Responsive Design | ✔ Complete |
-| Multi Language | ✔ Complete |
-| Performance Optimization | ✔ Complete |
+<table>
+<tr>
+
+<td width="33%" align="center">
+
+## Clean UI
+
+Modern and responsive interface designed for comfortable learning across devices.
+
+</td>
+
+<td width="33%" align="center">
+
+## Laravel Powered
+
+Built using a scalable Laravel architecture with clean code principles.
+
+</td>
+
+<td width="33%" align="center">
+
+## AI Assisted
+
+Integrated AI tools to enhance learning experiences and productivity.
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-# Technology Stack
+# Core Modules
 
-| Layer | Technology |
-|:------|:-----------|
-| Framework | Laravel |
-| Language | PHP |
-| Database | MySQL |
-| Frontend | HTML, CSS, JavaScript |
-| Architecture | MVC |
-| Version Control | Git & GitHub |
+| Module | Description | Status |
+|:--------|:------------|:------:|
+| Authentication | Secure login system | ✔ |
+| Dashboard | Personalized learning dashboard | ✔ |
+| Lesson Management | Learning content management | ✔ |
+| Categories | Course organization | ✔ |
+| AI Analyzer | AI-powered analysis | ✔ |
+| Multi Language | Localization support | ✔ |
+| Responsive UI | Mobile friendly | ✔ |
 
 ---
 
-# System Architecture
+# Technology
+
+<div align="center">
+
+Laravel • PHP • MySQL • HTML • CSS • JavaScript • Git • GitHub
+
+</div>
+
+---
+
+# Architecture
 
 ```text
-Client
-   │
-   ▼
-Laravel Application
-   │
-   ├── Routes
-   ├── Controllers
-   ├── Models
-   ├── Middleware
-   ├── Views
-   │
-   ▼
-MySQL Database
+                 Client
+
+                    │
+
+                    ▼
+
+        Laravel Application
+
+        ├── Routing
+
+        ├── Controllers
+
+        ├── Middleware
+
+        ├── Services
+
+        ├── Models
+
+        └── Blade Views
+
+                    │
+
+                    ▼
+
+             MySQL Database
 ```
 
 ---
@@ -79,68 +117,46 @@ MySQL Database
 # Project Structure
 
 ```text
-atlas-study/
-│
-├── app/
-├── bootstrap/
-├── config/
-├── database/
-├── public/
-├── resources/
-├── routes/
-├── storage/
-├── tests/
-│
-├── artisan
-├── composer.json
-└── README.md
+atlas-study
+
+├── app
+
+├── bootstrap
+
+├── config
+
+├── database
+
+├── public
+
+├── resources
+
+├── routes
+
+├── storage
+
+├── tests
+
+└── composer.json
 ```
 
 ---
 
-# Installation
-
-Clone the repository.
+# Quick Start
 
 ```bash
 git clone https://github.com/Chaxyzzz/atlas-study.git
-```
 
-Move into the project directory.
-
-```bash
 cd atlas-study
-```
 
-Install Composer dependencies.
-
-```bash
 composer install
-```
 
-Create the environment file.
-
-```bash
 cp .env.example .env
-```
 
-Generate the application key.
-
-```bash
 php artisan key:generate
-```
 
-Configure the database inside the `.env` file.
-
-Run database migrations.
-
-```bash
 php artisan migrate
-```
 
-Start the development server.
-
-```bash
 php artisan serve
 ```
 
@@ -148,55 +164,56 @@ php artisan serve
 
 # Development Roadmap
 
-| Version | Status |
-|:--------|:------:|
-| Authentication | ✔ |
-| Lesson Management | ✔ |
-| Category Management | ✔ |
-| AI Analyzer | ✔ |
-| Learning Progress | Planned |
-| Bookmark System | Planned |
-| Certificate System | Planned |
-| Recommendation Engine | Planned |
-| Discussion Forum | Planned |
-| Notification System | Planned |
+```
+✔ Authentication
+
+✔ Dashboard
+
+✔ Lesson Management
+
+✔ Category Management
+
+✔ AI Analyzer
+
+────────────────────────────
+
+◻ Bookmark System
+
+◻ Learning Progress
+
+◻ Certificates
+
+◻ AI Recommendation
+
+◻ Discussion Forum
+
+◻ Notification Center
+```
 
 ---
 
-# Development Principles
+# Design Principles
 
 - Clean Architecture
-- Scalable Codebase
-- Responsive Design
+
+- Responsive Experience
+
 - Performance First
-- Maintainable Source Code
-- Secure Authentication
-- User-Centered Experience
 
----
+- Maintainable Codebase
 
-# Contributing
+- Modern User Interface
 
-ATLAS Study is actively developed by **ATLAS Studio**.
-
-Suggestions, bug reports, and improvements are always appreciated. Please create an issue or submit a pull request following the project's contribution guidelines.
-
----
-
-# License
-
-Copyright © 2026 **ATLAS Studio**.
-
-All Rights Reserved.
-
-This software and its source code are proprietary assets of ATLAS Studio. Unauthorized copying, modification, distribution, or commercial use without written permission is prohibited.
+- Scalable Development
 
 ---
 
 <div align="center">
 
-## ATLAS Studio
+### ATLAS Studio
 
-Building modern digital platforms for education, creativity, and technology.
+Building modern educational platforms for creators.
+
+© 2026 ATLAS Studio. All Rights Reserved.
 
 </div>

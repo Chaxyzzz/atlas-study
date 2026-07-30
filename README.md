@@ -2,49 +2,52 @@
 
 # ATLAS Study
 
-Modern Educational Platform for Photography, Videography, Editing and Design.
+Modern Learning Platform
 
-Developed by **ATLAS Studio**
+Photography • Videography • Editing • Design
+
+Developed and maintained by **ATLAS Studio**
 
 ---
 
-![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=flat-square&logo=laravel)
-![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=flat-square&logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql)
-![License](https://img.shields.io/badge/License-Proprietary-black?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Production_Ready-success?style=flat-square)
+![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Version](https://img.shields.io/badge/Version-1.0.0-black?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Stable-success?style=flat-square)
 
 </div>
 
 ---
 
-## Overview
+# About
 
-ATLAS Study is a modern web-based educational platform developed by **ATLAS Studio**.
+ATLAS Study is a modern educational platform built by **ATLAS Studio** to provide structured and interactive learning experiences in creative digital fields.
 
-The platform focuses on creative education, providing structured learning experiences in photography, videography, editing, and design through a clean interface, responsive architecture, and scalable Laravel ecosystem.
-
----
-
-## Core Features
-
-| Module | Status |
-|---------|:------:|
-| Authentication | Complete |
-| Dashboard | Complete |
-| Lesson Management | Complete |
-| Category Management | Complete |
-| AI Analyzer | Complete |
-| Responsive Design | Complete |
-| Multi Language | Complete |
+The platform focuses on high-quality educational content with a clean user interface, scalable architecture, and a modern development workflow powered by Laravel.
 
 ---
 
-## Technology
+# Features
+
+| Feature | Status |
+|:---------|:------:|
+| Authentication System | ✔ Complete |
+| User Dashboard | ✔ Complete |
+| Lesson Management | ✔ Complete |
+| Category Management | ✔ Complete |
+| AI Analyzer | ✔ Complete |
+| Responsive Design | ✔ Complete |
+| Multi Language | ✔ Complete |
+| Performance Optimization | ✔ Complete |
+
+---
+
+# Technology Stack
 
 | Layer | Technology |
-|--------|------------|
-| Backend | Laravel |
+|:------|:-----------|
+| Framework | Laravel |
 | Language | PHP |
 | Database | MySQL |
 | Frontend | HTML, CSS, JavaScript |
@@ -53,57 +56,89 @@ The platform focuses on creative education, providing structured learning experi
 
 ---
 
-## Architecture
+# System Architecture
 
 ```text
-Browser
-    │
-    ▼
+Client
+   │
+   ▼
 Laravel Application
-    │
-    ├── Controllers
-    ├── Models
-    ├── Views
-    │
-    ▼
+   │
+   ├── Routes
+   ├── Controllers
+   ├── Models
+   ├── Middleware
+   ├── Views
+   │
+   ▼
 MySQL Database
 ```
 
 ---
 
-## Installation
+# Project Structure
 
-Clone repository
+```text
+atlas-study/
+│
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+├── routes/
+├── storage/
+├── tests/
+│
+├── artisan
+├── composer.json
+└── README.md
+```
+
+---
+
+# Installation
+
+Clone the repository.
 
 ```bash
 git clone https://github.com/Chaxyzzz/atlas-study.git
 ```
 
-Install dependencies
+Move into the project directory.
+
+```bash
+cd atlas-study
+```
+
+Install Composer dependencies.
 
 ```bash
 composer install
 ```
 
-Create environment file
+Create the environment file.
 
 ```bash
 cp .env.example .env
 ```
 
-Generate application key
+Generate the application key.
 
 ```bash
 php artisan key:generate
 ```
 
-Run database migration
+Configure the database inside the `.env` file.
+
+Run database migrations.
 
 ```bash
 php artisan migrate
 ```
 
-Start development server
+Start the development server.
 
 ```bash
 php artisan serve
@@ -111,68 +146,57 @@ php artisan serve
 
 ---
 
-## Roadmap
+# Development Roadmap
 
-| Version | Progress |
-|----------|----------|
-| Authentication System | Complete |
-| Lesson System | Complete |
-| AI Analyzer | Complete |
-| Hero Landing | Planned |
+| Version | Status |
+|:--------|:------:|
+| Authentication | ✔ |
+| Lesson Management | ✔ |
+| Category Management | ✔ |
+| AI Analyzer | ✔ |
 | Learning Progress | Planned |
-| AI Recommendation | Planned |
+| Bookmark System | Planned |
 | Certificate System | Planned |
+| Recommendation Engine | Planned |
+| Discussion Forum | Planned |
+| Notification System | Planned |
 
 ---
 
-## Project Structure
+# Development Principles
 
-```text
-atlas-study/
-
-app/
-bootstrap/
-config/
-database/
-public/
-resources/
-routes/
-storage/
-tests/
-
-artisan
-composer.json
-README.md
-```
+- Clean Architecture
+- Scalable Codebase
+- Responsive Design
+- Performance First
+- Maintainable Source Code
+- Secure Authentication
+- User-Centered Experience
 
 ---
 
-## Screenshots
+# Contributing
 
-Screenshots will be added in the next release.
+ATLAS Study is actively developed by **ATLAS Studio**.
 
----
-
-## Development
-
-ATLAS Study is continuously developed under the ATLAS Studio ecosystem.
-
-New features, performance improvements, UI refinements, and learning modules will continue to be released in future versions.
+Suggestions, bug reports, and improvements are always appreciated. Please create an issue or submit a pull request following the project's contribution guidelines.
 
 ---
 
-## License
+# License
 
-Copyright © 2026 ATLAS Studio.
+Copyright © 2026 **ATLAS Studio**.
 
 All Rights Reserved.
+
+This software and its source code are proprietary assets of ATLAS Studio. Unauthorized copying, modification, distribution, or commercial use without written permission is prohibited.
 
 ---
 
 <div align="center">
 
-ATLAS Studio
+## ATLAS Studio
 
-Creating modern digital platforms for education, creativity, and technology.
+Building modern digital platforms for education, creativity, and technology.
 
 </div>
